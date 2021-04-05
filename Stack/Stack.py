@@ -17,6 +17,9 @@ class Stack:
     def size(self):
         return len(self.items)
 
+    def get_stack(self):
+        return self.items
+
 
 s = Stack()
 print(s.is_empty())

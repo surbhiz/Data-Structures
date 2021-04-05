@@ -16,7 +16,7 @@ class Stack():
             return self.items[-1]
 
     def get_stack(self):
-        return self.item
+        return self.items
 
 
 def domath(op, op1, op2):
